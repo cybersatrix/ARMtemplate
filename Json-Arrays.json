@@ -1,0 +1,17 @@
+
+
+[
+    {
+        "name":"CyberSatrix",
+        "number of employees":10
+    },
+    {
+        "name":"Google",
+        "category":"Search Engine"
+    },
+    {
+        "name":"Microsoft",
+        "IsRegistered":true
+    }
+]
+

@@ -1,0 +1,23 @@
+az login
+
+az group list
+
+az deployment 
+
+echo "To deploy to a resource group, use "az deployment group create"
+
+az deployment group create -g arm_template --template-file "D:\Santosh\Visual Studio\ARM Template\Lab1.json" 
+
+// To deploy to a subscription, use "az deployment sub create"
+
+az deployment sub create --location "centalIndia" --template-file "D:\Santosh\Visual Studio\ARM Template\Lab1.json"
+
+// To deploy to a management group, use "az deployment mg create"
+
+az deployment mg create --location <location> --template-file <path-to-template>
+
+//To deploy to a tenant, use "az deployment tenant create?
+
+az deployment tenant create --location <location> --template-file <path-to-template>
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-cli 

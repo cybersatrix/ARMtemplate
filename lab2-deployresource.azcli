@@ -1,0 +1,11 @@
+az login
+
+az account list
+
+az group 
+
+az account set --subscription 3d64acb6-20f1-4db7-be59-34366c0a3f7f
+
+az group list 
+
+az deployment group 

@@ -1,0 +1,25 @@
+
+{
+    "name":"CyberSatrix",
+    "number of employees":10,
+    "Head Office":"Hyderabad",
+    "category":"Training Institute",
+    "IsRegistred": true,
+    "Contact US":{
+        "email ID":"cybersatrix@gmail.com",
+        "name":"Support team",
+        "website":"https://cybersatrix.com/contact-us"
+    },
+    "employees":[
+        {
+            "name":"Ram Kumar",
+            "employeeID":123456
+        },
+        {
+            "name":"Laxman Prasad",
+            "employeeID":345218
+        }
+    ]
+}
+
+
