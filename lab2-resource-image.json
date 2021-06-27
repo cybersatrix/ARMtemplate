@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion":"1.0.0.0",
+    "resources": [
+        {
+            "type": "Microsoft.Compute/images",
+            "apiVersion": "2020-12-01",
+            "location": "Central India",
+            "name":"azurevm1",
+            "tags": {
+                "imageType": "prod",
+                "applicationType": "splunk"
+            },
+            "properties": {
+                "sourceVirtualMachine": {
+                    "id": "/subscriptions/3d64acb6-20f1-4db7-be59-34366c0a3f7f/resourceGroups/splunk/providers/Microsoft.Compute/virtualMachines/splunkallinone"
+                }
+                }
+            }
+        
+    ]
+}

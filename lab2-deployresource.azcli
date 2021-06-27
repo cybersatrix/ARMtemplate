@@ -2,10 +2,28 @@ az login
 
 az account list
 
-az group 
-
 az account set --subscription 3d64acb6-20f1-4db7-be59-34366c0a3f7f
+
+az group create --name "arm-rg" --location "Central India"
 
 az group list 
 
-az deployment group 
+# To create an Image from VM resource for prod environment 
+
+az login
+
+# list subscription in the Azure account 
+
+az account list
+
+# Select the Subscription 
+
+az account set --subscription 3d64acb6-20f1-4db7-be59-34366c0a3f7f --debug
+
+# List resource Group 
+
+az group list
+  
+# Deploy the template 
+
+az deployment group create --name "splunkProfImage" --resource-group arm_template --template-file "D:\Santosh\Visual Studio\ARM Template\lab2-resource-image.json" 
